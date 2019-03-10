@@ -17,4 +17,5 @@ def line(katz_deli)
  
  def take_a_number
    if katz_delia = []
-     puts ""
+     puts "There is nobody in line"
+     
