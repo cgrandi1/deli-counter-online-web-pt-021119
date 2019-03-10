@@ -19,3 +19,4 @@ def line(katz_deli)
    if katz_delia = []
      puts "There is nobody in line"
      
+   else 
