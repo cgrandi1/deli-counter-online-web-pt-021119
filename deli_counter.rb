@@ -6,7 +6,12 @@ require 'pry'
 def line(katz_deli)
      if katz_deli = []
        puts "The line is currently empty."  
-       
+     end 
+     
+     else 
+     
+     
+     
      else def take_a_number
        
      end 
