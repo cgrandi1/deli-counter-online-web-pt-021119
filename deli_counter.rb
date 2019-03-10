@@ -8,6 +8,7 @@ def line(katz_deli)
        puts "The line is currently empty."  
        
      else 
+       people_in_line 
        katz_deli.each.with_index(1) do 
          |
        puts "This line is currently: "
