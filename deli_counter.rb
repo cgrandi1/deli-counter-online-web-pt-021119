@@ -8,7 +8,9 @@ def line(katz_deli)
        puts "The line is currently empty."  
        
      else 
-       puts "the line "
+       katz_deli[1] each do 
+         |
+       puts "This line is currently: "
      
      
      else def take_a_number
