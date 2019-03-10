@@ -10,7 +10,7 @@ def line(katz_deli)
      else 
       katz_deli.each.with_index(1) do 
          |name, index| puts "The line is currently: #{index}, #{name}"
-         katz_deli << 
+         katz_deli << ""
      end 
    end 
  end 
