@@ -8,8 +8,10 @@ def line(katz_deli)
        puts "The line is currently empty."  
        
      else 
-      current_line = katz_deli.each.with_index(1) do 
-         |name, index| puts "The line is currently: #{index}, #{name}"
+      current_line = "The line is currently:" 
+      katz_deli.each.with_index(1) do 
+         |name, index|
+         current_line.push("#{index}, #{name}")
      end 
      puts current_line
    end 
