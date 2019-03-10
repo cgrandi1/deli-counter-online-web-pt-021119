@@ -17,9 +17,3 @@ def line(katz_deli)
    end 
  end 
  
- def take_a_number
-   if katz_delia = []
-     puts "There is nobody in line"
-     
-   else 
-     puts "Now se"
