@@ -16,3 +16,5 @@ def line(katz_deli)
  end 
  
  def take_a_number
+   if katz_delia = []
+     puts ""
