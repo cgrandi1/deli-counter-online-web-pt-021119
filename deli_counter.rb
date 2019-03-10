@@ -9,7 +9,7 @@ def line(katz_deli)
        
      else 
        katz_deli.each.with_index(1) do 
-         |name, index| puts "The line is currently,  "
+         |name, index| puts "The line is currently"
      
      
      else def take_a_number
