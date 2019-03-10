@@ -8,9 +8,9 @@ def line(katz_deli)
        puts "The line is currently empty."  
        
      else 
-      katz_deli.each.with_index(1) do 
+      current_line = katz_deli.each.with_index(1) do 
          |name, index| puts "The line is currently: #{index}, #{name}"
-         katz_deli << ""
      end 
+     puts current_line
    end 
  end 
